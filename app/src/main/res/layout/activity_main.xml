@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:filterTouchesWhenObscured="true"
+        android:fontFamily="sans-serif-condensed"
+        android:forceHasOverlappingRendering="true"
+        android:gravity="center"
+        android:letterSpacing="0.1"
+        android:shadowColor="#0B0A0A"
+        android:text="Android Developers"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#EAE9EC"
+        android:textColorHint="#0E0C0C"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:background="@drawable/com"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/com" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/user"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:hint="Username(admin)"
+        android:minWidth="100dp"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/password"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:hint="Password(admin)"
+        android:inputType="textPassword"
+        android:minWidth="100dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="login"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registerNewUser"
+        android:text="Register New User" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:forceHasOverlappingRendering="true"
+        android:gravity="center"
+        android:shadowColor="#0B0A0A"
+        android:ems="5"
+        android:inputType="text"
+        android:text="By Rishu Ranjan"
+        android:textColorLink="#DFDEDE"
+        android:textAlignment="center"
+        android:textColor="#EAE9EC"
+        android:textColorHint="#0E0C0C"
+        android:textSize="18dp"
+        android:background="@null" />
+
+
+</LinearLayout>
